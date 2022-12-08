@@ -10,7 +10,7 @@ def main():
 
     while attempt <= attempts:
         guess = int((maximum - minimum) / 2) + minimum
-        print(f'Computer: My guess number {attempt} is "{guess}"')
+        print(f'Computer: My guess number {attempt}, is "{guess}"')
         info = ''
         while not info:
             info = take_user_info()
